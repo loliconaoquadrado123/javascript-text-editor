@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     border:none;
+    box-sizing:border-box;
+}
+#window{
+    width: 100px;
+    height: 900px;
+    background-color: #ffffff;
 }
 #header{
     width: 100%;
@@ -48,14 +54,7 @@
     background-color: gray;
 }
 
-#box li{
-    display:inline-block;
 
-    width:50%;
-    height:100%;
-    
-    font-weight: 800;
-}
 
 #box ul .first{
     
@@ -75,4 +74,12 @@
     padding:1%;
     border: none;
     
+}
+#box li{
+    display:inline-block;
+
+    width:49%;
+    height:100%;
+    background-color:green;
+    font-weight: 800;
 }
