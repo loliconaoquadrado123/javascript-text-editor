@@ -25,7 +25,7 @@
 
 #text{
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: none;
     
     height: 100%;
 }
@@ -40,6 +40,39 @@
     font-weight: 800;
 }
 #box{
-    width:90%;
-    background-color: black;
+    position:fixed;
+    bottom: 0;
+    right:70px;
+    height: 10%;
+    width:17%;
+    background-color: gray;
+}
+
+#box li{
+    display:inline-block;
+
+    width:50%;
+    height:100%;
+    
+    font-weight: 800;
+}
+
+#box ul .first{
+    
+    
+    background-color: #262424;
+}
+#box ul .last{
+    
+    
+    
+    background-color: blueviolet;
+    
+}
+#box li *{
+    width: 99%;
+    height: 99%;
+    padding:1%;
+    border: none;
+    
 }
