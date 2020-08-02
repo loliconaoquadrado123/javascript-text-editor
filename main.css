@@ -20,20 +20,26 @@
 #editor{
     width: 100%;
     overflow-x: none;
+    overflow-y: none;
 }
+
 #text{
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: scroll;
+    
     height: 100%;
 }
 #text:hover{
     border:none;
-    
+
 }
 #text::first-letter{
     
 }
+#clip{
+    font-weight: 800;
+}
 #box{
-    
-    
+    width:90%;
+    background-color: black;
 }
