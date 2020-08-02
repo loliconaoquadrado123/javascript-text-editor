@@ -26,16 +26,7 @@
     overflow-x: hidden;
     height: 100%;
 }
-#input{
-    display: block;
-    position:fixed;
+#box{
     
-    top:0;
-    right:0;
-    
-    width: 62%;
-    height: 62%;
-    background-color: green;
-    z-index:1000;
     
 }
